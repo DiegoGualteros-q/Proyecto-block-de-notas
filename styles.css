@@ -1,0 +1,82 @@
+* {
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+}
+
+
+ 
+
+.background{
+
+ height: 100vh;
+ background-image: url(./Imagenes/fondo.png);
+ background-repeat: no-repeat;
+ background-size: cover;
+ display: flex;
+}
+
+
+.container h1{
+
+    color:black;
+    font-family:cursive;
+    font-size: 100px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius:10px ;
+    width: fit-content;
+    justify-content: center;
+    text-align: center;
+    margin-left: 30%;
+      box-shadow: 5px 5px 20px rgb(116, 111, 111);
+
+}
+
+.Mycontainer2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+     
+}
+
+.myButton{
+    margin-right: 15%;
+    height: 10%;
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgba(2, 188, 255, 1);
+    color: white;
+    font-size: 20px;
+    font-weight:500;
+    border-color: rgba(2, 188, 255, 1);
+     font-family:cursive;
+     box-shadow: 5px 5px 10px rgb(116, 111, 111);
+     }
+
+     .MyInput{
+    margin-right: 10%;
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+    background-color:white;
+    color: black;
+    font-size: 20px;
+    font-weight:500;
+    border-color: rgba(2, 188, 255, 1);
+     font-family:cursive;
+     box-shadow: 5px 5px 10px rgb(116, 111, 111);
+     }
+
+.onecontainer.container{
+    display: block;
+     background-color: rgba(255, 255, 255, 0.4);
+    justify-content: center;
+    justify-items: center;
+     text-align: center;
+     width: 50%;
+     height: 100px;
+     padding: 40px;
+     box-shadow: 5px 5px 20px rgb(116, 111, 111);
+     border-radius: 10px;
+}
+
